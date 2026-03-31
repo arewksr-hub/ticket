@@ -2,8 +2,6 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 
-TOKEN = "MTQ4Nzg1OTU5NjUwODAwNDM2Mw.GkUTKP.6uIhdH2Yojglkb0MWxNcW4sxo0VkTZCIX-ZsO8"
-
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 
